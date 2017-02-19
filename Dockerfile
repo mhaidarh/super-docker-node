@@ -1,5 +1,5 @@
 # use the latest LTS (long term support) version of node available from the Docker Hub
-FROM node:boron
+FROM mhart/alpine-node:latest
 
 # Create app directory
 RUN mkdir -p /usr/src/app
